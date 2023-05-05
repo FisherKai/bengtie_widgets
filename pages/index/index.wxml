@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 顶部菜单栏 -->
+  <top-menu></top-menu>
+
+  <!-- 底部tab栏 -->
+  <van-tabbar active="{{ active }}" bind:change="onTabChange">
+    <van-tabbar-item name="home" icon="home-o">首页</van-tabbar-item>
+    <van-tabbar-item name="setting" icon="browsing-history-o">百宝箱</van-tabbar-item>
+    <van-tabbar-item name="setting" icon="friends-o">我的</van-tabbar-item>
+  </van-tabbar>
+</view>

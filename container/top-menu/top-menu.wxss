@@ -1,0 +1,12 @@
+/* container/top-menu/top-menu.wxss */
+.item-logo{
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.c-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

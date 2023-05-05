@@ -1,0 +1,11 @@
+<!--container/top-menu/top-menu.wxml-->
+<view class="container-top-menu">
+  <van-row>
+    <van-col span="8">
+      <view class="c-item" bindtap="toCardAnalysis">
+        <image class="item-logo" src="/assets/icon/accounting.png"></image>
+        <text class="item-text">抽卡分析</text>
+      </view>
+    </van-col>
+  </van-row>
+</view>

@@ -1,0 +1,14 @@
+/* pages/card-analysis/card-analysis.wxss */
+.page-card-analysis .input-url{
+    width: 100%;
+    border: 1rpx solid #000;
+    border-radius: 15rpx;
+}
+
+.page-card-analysis .section {
+  padding: 30rpx;
+}
+
+.page-card-analysis .start-analysis {
+  text-align: center;
+}

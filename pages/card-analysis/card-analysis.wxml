@@ -1,0 +1,9 @@
+<!--pages/card-analysis/card-analysis.wxml-->
+<view class="page-card-analysis">
+  <view class="section">
+    <textarea class="input-url" placeholder="请输入分析抽卡地址" value="{{url}}" maxlength="-1" bindinput="changeUrlValue"/>
+  </view>
+  <view class="start-analysis">
+    <van-button type="info" bindtap="startAnalysis">开始分析</van-button>
+  </view>
+</view>
