@@ -43,7 +43,8 @@
             }
         ],
         "minifyWXSS": true,
-        "showES6CompileOption": false
+        "showES6CompileOption": false,
+        "condition": false
     },
     "compileType": "miniprogram",
     "libVersion": "2.30.4",
